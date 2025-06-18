@@ -1,0 +1,144 @@
+.contact {
+	display: flex;
+	background: linear-gradient(90.79deg, #242424 65.31%, #E92129 98.69%);
+}
+
+.contact__header {
+	margin: 100px;
+	width: 578px;
+	height: 327px;
+}
+
+.contact__label {
+	font-family: Proxima Nova;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.contact__title {	
+	font-family: Proxima Nova;
+	font-size: 80px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.contact__description {
+	font-family: Proxima Nova;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.contact__form_wrapper {	
+	margin: 100px;
+	margin-left: 200px;
+}
+
+.form.form_contact {
+	width: 477px;
+	height: 363px;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.form__input {
+	width: 477px;
+	height: 42pxpx;
+	padding: 6px 0px 6px 20px;
+	font-family: Proxima Nova;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 10px;
+	background: transparent;
+	opacity: 0.4px;
+	border: 1px solid #FFFFFF
+}
+
+.form__textarea {
+	width: 477px;
+	height: 110px;
+	padding: 6px 0px 0px 20px;
+	font-family: Proxima Nova;
+	font-size: 17px;
+	font-weight: 400;
+	margin: 10px;
+	background: transparent;
+	opacity: 0.4px;
+	border: 1px solid #FFFFFF;
+}
+
+.form__button_contact {
+	padding: 14px 24px 14px 24px;
+	background-color: #E4252C;
+	font-size: 20px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+}
+
+@media (max-width: 1040px) {
+	    .contact__label {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .contact__title {	
+        font-size: 50px;
+        margin: 20px 0px;
+    }
+
+    .contact__description {
+        font-size: 18px;
+    }
+
+    .contact__form-wrapper {	
+        margin: 100px 100px 0px 0px ;
+    }
+
+    .form__input {
+        width: 400px;
+        height: 30px;
+    }
+
+    .form__textarea {
+        width: 400px;
+        height: 90px;
+    }
+
+    .form__button.form__button--contact {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 769px) {
+	.contact {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .contact__header {
+        margin: 50px 50px 0px 50px;
+    }
+
+    .contact__label {
+        padding-top: 30px;
+    }
+
+    .contact__form_wrapper {
+        margin: 0px;
+    }
+
+    .form.form_contact {
+        padding: 50px;
+        margin-left: 50px;
+    }
+}

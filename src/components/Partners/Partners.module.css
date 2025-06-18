@@ -1,0 +1,22 @@
+.partners {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.partners__container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 1040px) {
+	    .partners__image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 769px) {
+	    .partners__image {
+        width: 140px;
+        display: flex;
+    }
+}

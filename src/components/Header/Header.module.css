@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+
+}
+
+.logo__Cart {
+  list-style: none;
+  color: #2F2F2F;
+  margin-left: 30px ;
+  text-align: center;
+  
+}
+
+@media (max-width: 769px) {
+  .header {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

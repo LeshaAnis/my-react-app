@@ -1,0 +1,29 @@
+* {
+    text-decoration: none;
+    font-family: Proxima Nova, sans-serif;
+    	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+} 
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/proxima-nova/ProximaNova-Regular.woff2') format('woff2') 	
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../font/proxima-nova/ProximaNova-Bold.woff2') format('woff2') 	
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../font/proxima-nova/ProximaNova-Extrabld.woff2') format('woff2') 	
+}

@@ -1,0 +1,97 @@
+.recommendations {
+	display: flex;
+	margin: 150px 0px;
+}
+
+.recommendations__header {
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.recommendations__title {
+	font-family: Proxima Nova;
+    font-size: 80px;
+    font-weight: 800;
+	color: #242424;
+}
+
+.recommendations__content_common {
+	display: flex	;
+}
+
+
+.recommendations__content_medium {
+	padding: auto;
+}
+
+.recommendations__description {
+	font-family: Proxima Nova;
+	font-size: 18.51px;
+	font-weight: 400;
+	color: #1C1C1C;
+
+}
+
+.recommendations__button {
+	width: 186px;
+	height: 52px;
+	border-radius: 12px;
+	background-color: #E92129;
+	font-family: Proxima Nova;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.13px;
+	color:#ffffff;
+	border: none;
+}
+
+@media (max-width: 1040px) {
+	 .recommendations__title {
+        width: 350px;
+        font-size: 50px;
+        margin: 20px 0px;
+    }
+
+    .recommendations__description {
+        width: 300px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .recommendations__button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .recommendations__content_medium {
+        width: 500px;
+    }
+
+    .recommendations__content_low {
+        width: 200px;
+    }
+
+    .recommendations__image {
+        width: 500px;
+    }
+
+    .recommendations__images {
+        width: 100px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 769px) {
+	 .recommendations {
+        display: flex;
+        margin: 50px;
+        display: block;
+    }
+
+    .recommendations__content_common {
+        display: flex;
+        margin-bottom: 50px;
+    }
+}

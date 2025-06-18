@@ -1,0 +1,36 @@
+.link {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 60px;
+	padding-top: 50px;
+	font-size: 80px;
+	color: #E92129;
+}
+
+.cardList {
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+	margin-bottom: 100px;
+}
+
+.title {
+    margin-left: 60px;
+    margin-bottom: 30px;
+	padding-top: 20px;
+	font-size: 30px;
+	color: #E92129;
+}
+
+.controls {
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.backButton {
+    margin-left: 30px;
+}

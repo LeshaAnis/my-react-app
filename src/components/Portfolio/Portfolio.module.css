@@ -1,0 +1,233 @@
+.portfolio {
+	display: flex;
+	margin: 150px 0px;
+}
+
+.portfolio__header {
+
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.portfolio__title {
+    font-size: 80px;
+    font-weight: 800;
+	color: #242424;
+}
+
+.images_portfolio_medius {
+	padding: auto;
+}
+
+.portfolio__description {
+	font-family: Proxima Nova;
+	font-size: 18px;
+	font-weight: 400;
+	color: #1C1C1C;
+	padding-bottom: 30px;
+}
+
+.portfolio__button {
+	width: 186px;
+	height: 52px;
+	border-radius: 12px;
+	background-color: #E92129;
+	font-family: Proxima Nova;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.13px;
+	color:#ffffff;
+	border: none;
+}
+
+
+.swiper__container {
+    position: relative;
+    width: 700px;
+ 
+    overflow: hidden;
+	margin-left: 213px;
+
+}
+
+.img__swipper {
+    width:700px;
+	height: 400px;
+}
+
+.games__banner {
+	position: absolute;
+	left: 0px;
+	bottom: 67px;
+    background-color: #E92129;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.see__all {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.see__all:hover {
+    color: #f0f0f0;
+}
+
+.slider__controls {
+    display: flex; 
+    justify-content: flex-end;
+    z-index: 1; 
+}
+
+.prev {
+    background-color: #E92129;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.next {
+    background-color: #E92129;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.prev:hover {
+    background-color: darkred;
+}
+
+.next:hover {
+    background-color: darkred;
+}
+
+@media (max-width: 1040px) {
+     .portfolio__title {
+        font-size: 50px;
+    }
+
+    .portfolio__description {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .portfolio__button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .swiper_container {
+        width: 500px;
+    }
+
+    .img_swipper {
+        width:500px;
+        height: 300px;
+    }
+
+    .games_banner {
+        bottom: 59px;
+        width: 180px;
+    }
+
+    .prev {
+        margin-top: 20px;
+        margin-right: 2px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+    
+    .next {
+        margin-top: 20px;
+        margin-left: 2px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }   
+}
+
+@media (max-width: 769px) {
+    .portfolio {
+        display: block;
+        margin: 0px 50px;
+    }
+
+    .portfolio__title {
+        font-size: 50px;
+    }
+
+    .portfolio__description {
+        font-size: 16px;
+    }
+
+    .portfolio__button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+     .swiper_container {
+        width: 500px;
+         margin: 0 !important;
+    }
+
+    .img_swipper {
+        width:500px;
+        height: 300px;
+    }
+
+    .games_banner {
+        bottom: 108px;
+        width: 200px;
+    }
+
+    .prev {
+        margin-top: 20px;
+        margin-right: 2px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+    
+    .next {
+        margin-top: 20px;
+        margin-left: 2px;
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+
+    .slider-controls {
+        margin-bottom: 50px;
+    }
+}

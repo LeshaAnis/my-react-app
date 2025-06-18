@@ -1,0 +1,20 @@
+.banner{
+	background-color: #000000;
+}
+
+.banner__container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 1040px) {
+	  .banner__image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 769px) {
+	    .banner__image {
+        width: 150px;
+    }
+}

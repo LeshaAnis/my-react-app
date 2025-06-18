@@ -1,0 +1,146 @@
+.about {
+	max-width: 1122px;
+	height: 289px;
+	display: flex;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+
+.about__header {
+	width: 692px;
+	height: 170px;
+	display: flex;
+	align-items: center;
+	font-family: Proxima Nova;
+	font-size: 40px;
+	color: #242424;
+}
+
+.about__title {
+	font-weight: 800;
+} 
+
+.about__content {
+	width: 697px;
+	height: 76px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.about__stats {
+	display: flex;
+}
+
+.about__text_upper {
+	font-family: Proxima Nova;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 38.02px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.about__text_lower {
+	font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: 400;
+	line-height: 27.96px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #000000;
+	margin-bottom: 20px;
+
+}
+
+.about__stat_value {
+	row-gap: 9px;
+}
+
+.about__stat_value::after {
+	content: "+";
+	color: #E4252C;;
+}
+
+.about__stats {
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+
+}
+
+.about__stat {
+	display: block;
+    font-size: 50px; 
+    font-weight: 700;
+}
+
+.about__stat_label {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+@media (max-width: 1040px) {
+	.about {
+        margin: 100px;
+    }
+
+    .about__header {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .about__content {
+        width: 500px;
+    }
+
+    .about__text_upper {
+        font-size: 28px;
+    }
+
+    .about__text_lower {
+        font-size: 18px;
+    }
+
+    .about__stat {
+        font-size: 40px; 
+    }
+}
+
+@media (max-width: 769px) {
+	    .about {
+        margin: 50px;
+        display: block;
+        margin-bottom: 180px;
+    }
+
+    .about__header {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .about__title {
+        margin: 0px;
+    }
+
+    .about__text_upper {
+        font-size: 24px;
+    }
+
+    .about__text_lower {
+        font-size: 14px;
+    }
+
+    .about__stat {
+        font-size: 30px; 
+    }
+}
